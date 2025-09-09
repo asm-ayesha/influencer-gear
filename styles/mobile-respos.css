@@ -1,12 +1,23 @@
 @media screen and (max-width: 576px) {
     .navbar,
-    .nav-links{
+    .nav-links,
+    .banner-container{
         flex-direction: column;
-        text-align: center;
+        
     }
 
     .nav-links{
         display: none;
+    }
+
+    .banner-container{
+        flex-direction: column-reverse;
+        margin: 0;
+        text-align: center;
+    }
+
+    .banner-content{
+        margin-top: 60px;
     }
 
 }
