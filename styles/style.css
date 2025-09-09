@@ -20,7 +20,7 @@
 
 /* navbar section styles */
 .navbar {
-    margin-top:20px;
+    margin-top:30px;
     justify-content: space-around;
 }
 
@@ -41,3 +41,4 @@
 .nav-item{
     list-style: none;
 }
+
