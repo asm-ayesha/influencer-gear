@@ -6,6 +6,11 @@
         
     }
 
+    .brand-name{
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
     .nav-links{
         display: none;
     }
@@ -20,4 +25,11 @@
         margin-top: 60px;
     }
 
+
+    /* brands */
+    .brands{
+        border: none;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+    }
 }
