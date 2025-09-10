@@ -15,7 +15,8 @@
         display: none;
     }
 
-    .banner-container{
+    .banner-container,
+    .products-feature{
         flex-direction: column-reverse;
         margin: 0;
         text-align: center;
@@ -42,6 +43,29 @@
 
     .seeMore-btn{
         margin-left: 0;
-        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
+
+
+    /* products feature */
+    .products-content{
+    align-content: center;
+    margin-left: 0;
+    margin-top: 50px;
+}
+
+.products-thamnail{
+    margin-top: 40px;
+   width: 100%;
+}
+
+.products-thamnail  img{
+    width: 80%;
+}
+
+
+
+
 }

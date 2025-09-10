@@ -124,13 +124,10 @@ main>section {
 }
 
 /* cards section style */
-.card-container {
-   
 
-}
 
 .card-title {
-     text-align: center;
+    text-align: center;
     font-size: var(--font-size);
     color: var(--text-primary-color);
     margin-bottom: 30px;
@@ -140,7 +137,7 @@ main>section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
-     justify-items: center;
+    justify-items: center;
 }
 
 .card {
@@ -149,13 +146,13 @@ main>section {
     background: rgba(255, 255, 255, 1);
 }
 
-.thamnail{
+.thamnail {
     padding: 15px;
-} 
+}
 
-.thamnail> img {
+.thamnail>img {
     width: 100%;
-    
+
 }
 
 .card-content {
@@ -189,13 +186,36 @@ span {
     color: var(--text-color);
 }
 
-.seeMore-btn{
+.seeMore-btn {
     color: var(--btn-bg-secondery);
     background: none;
     cursor: pointer;
     border: none;
     font-size: var(--font-size);
     font-weight: var(--font-weight);
-    margin-top:50px ;
+    margin-top: 50px;
     margin-left: 88%;
+}
+
+
+/* products feature */
+
+.products-content {
+    align-content: center;
+    margin-left: 98px;
+}
+
+.product-title {
+    color: rgba(10, 8, 38, 1);
+    font-size: 2.6rem;
+    font-weight: 700;
+
+}
+
+.product-description {
+    color: var(--text-color);
+    font-size: var(--font-size);
+    font-weight: var(--font-weight);
+    line-height: 28px;
+    padding: 16px 0;
 }
