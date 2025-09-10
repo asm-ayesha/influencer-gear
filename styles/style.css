@@ -125,11 +125,12 @@ main>section {
 
 /* cards section style */
 .card-container {
-    text-align: center;
+   
 
 }
 
 .card-title {
+     text-align: center;
     font-size: var(--font-size);
     color: var(--text-primary-color);
     margin-bottom: 30px;
@@ -186,4 +187,15 @@ span {
 
 .card-description {
     color: var(--text-color);
+}
+
+.seeMore-btn{
+    color: var(--btn-bg-secondery);
+    background: none;
+    cursor: pointer;
+    border: none;
+    font-size: var(--font-size);
+    font-weight: var(--font-weight);
+    margin-top:50px ;
+    margin-left: 88%;
 }
